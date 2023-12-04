@@ -1,0 +1,335 @@
+.first {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: Cursive;
+}
+
+.name1 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex: 1;
+
+}
+
+.name {
+    font-size: 5vh;
+    font-weight: bold;
+
+
+}
+
+.name2 {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+
+
+}
+
+.list {
+    flex: 10;
+}
+
+.list>ul {
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+
+
+
+}
+
+.list>ul>li {
+    border-radius: 34px;
+    border: none;
+    color: rgb(7, 7, 7);
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    font-size: 3vh;
+
+}
+
+.list>ul>li:hover {
+    background: #fff;
+    cursor: pointer;
+    color: orange;
+    border: 1px solid orange;
+    box-shadow: 0px 20px 24px 3px rgb(251, 161, 40, 0.42);
+
+}
+
+.button {
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgb(251, 161, 40, 0.42);
+    margin-top: 2px;
+
+}
+
+button:hover {
+    background: #fff;
+    cursor: pointer;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.intro {
+    text-align: left;
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+
+
+}
+
+.txt {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+}
+
+.txte1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt3 {
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.txt1 {
+    color: orange;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: Cursive;
+}
+
+.txt2 {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    font-family: Cursive;
+
+}
+
+.buttons {
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgb(251, 161, 40, 0.42);
+    font-family: Cursive;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 3rem;
+
+}
+
+.buttons:hover {
+    background: #fff;
+    cursor: pointer;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.images {
+    margin-top: 10vh;
+    display: flex;
+    gap: 0rem;
+
+}
+
+.images>* {
+    transform: scale(0.5);
+}
+
+.images>*:hover {
+    cursor: pointer;
+}
+
+.i-right {
+    flex: 1;
+    position: relative;
+}
+
+.i-right>* {
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>.vector1 {
+    transform: scale(0.69);
+    left: -11%;
+    top: -9%;
+
+}
+
+.i-right>.vector2 {
+    transform: scale(0.67);
+    left: -3rem;
+    top: -4.6rem;
+}
+
+.i-right>.boy {
+    transform: scale(1.45);
+    left: 21%;
+    top: 15px;
+}
+
+
+
+
+
+
+@media(max-width:1024px){
+    .i-right>.boy {
+        transform: scale(1.4);
+        left: 35%;
+        top: 21px;
+    }
+}
+
+
+
+
+
+@media(max-width: 768px){
+    .i-right>.boy {
+        transform: scale(1.4);
+        left: 65%;
+        top: 22px;
+    }
+    .i-right {
+        flex: .5;
+        position: relative;
+    }
+    
+    .i-right>* {
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .i-right>.vector1 {
+        transform: scale(0.69);
+        left: -11%;
+        top: -9%;
+    
+    }
+    
+    .i-right>.vector2 {
+        transform: scale(0.67);
+        left: -3rem;
+        top: -4.6rem;
+    }
+    .txt2 {
+        color: black;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 10px;
+        font-family: Cursive;
+        
+    
+    }
+}
+
+
+
+
+
+
+@media(max-width:480px){
+    .list>ul {
+        display: flex;
+        gap: 1rem;
+        list-style-type: none;
+    
+    
+    
+    }
+    
+    
+    .list>ul>li {
+        border-radius: 34px;
+        border: none;
+        color: rgb(7, 7, 7);
+        font-size: 16px;
+        padding: 11px 26px 11px 26px;
+        font-size: 2vh;
+    
+    }
+    
+    .i-right>.boy {
+        transform: scale(1.4);
+        left: 130%;
+        top: 21px;
+    }
+    .intro {
+        text-align: left;
+        display: flex;
+        height: 77vh;
+        margin-top: 5rem;
+    
+    
+    }
+    
+    .txt {
+        display: flex;
+        position: relative;
+        flex: 1;
+        flex-direction: column;
+    }
+    
+    .txte1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .txt3 {
+        color: black;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    
+    .txt1 {
+        color: orange;
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: Cursive;
+    }
+    
+    .txt2 {
+        color: black;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 10px;
+        font-family: Cursive;
+    
+    }
+    
+}
+
+
+
+
+@media(max-width:320px){
+    .i-right>.boy {
+        transform: scale(1.4);
+        left: 500%;
+        top: 21px;
+    }
+    
+}
